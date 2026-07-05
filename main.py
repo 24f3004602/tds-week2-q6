@@ -61,7 +61,7 @@ def work(n: int = Query(..., ge=0)):
     total = 0
     for i in range(n):
         total += i * i
-    return {"email": "user@example.com", "done": n}
+    return {"email": "24f3004602@ds.study.iitm.ac.in", "done": n}
 
 @app.get("/metrics")
 def metrics():
